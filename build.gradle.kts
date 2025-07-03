@@ -27,8 +27,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
 	implementation("org.mybatis.dynamic-sql:mybatis-dynamic-sql:1.2.1")
-	implementation("mysql:mysql-connector-java:8.0.23")
+	implementation("com.mysql:mysql-connector-j:8.4.0")
 	mybatisGenerator("org.mybatis.generator:mybatis-generator-core:1.4.0")
+	implementation("org.flywaydb:flyway-mysql")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
